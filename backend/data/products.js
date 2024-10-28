@@ -1,5 +1,16 @@
 const products = [
   {
+    name: "Casual Shirt",
+    description: "A comfortable casual shirt perfect for everyday wear.",
+    image: "/images/shirt.jpg", // Path to your image
+    brand: "Brand Name",
+    category: "Clothing",
+    price: 29.99,
+    countInStock: 100, // Stock available
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
     name: 'Acer Nitro V Gaming Laptop 13th Gen Intel Core i5-13420H with RTX 4050 Graphics 6GB VRAM, 144Hz Display (16GB DDR5/512GB SSD/Windows 11 Home/Wi-Fi 6),15.6"(39.6cms) FHD ANV15-51',
     image: '/uploads/51TiJ0A-KsL._SL1000_.jpg',
     description:
