@@ -396,6 +396,17 @@ const products = [
     numReviews: 120
   },
   {
+    name: "Hawkins Futura Hard Anodised Kadhai 3L",
+    image: "/uploads/hawkins_kadhai.jpg",
+    description: "Hard anodized for durability | 3-liter capacity | Even heat distribution",
+    brand: "Hawkins",
+    category: "Home Kitchen Items",
+    price: 99,
+    countInStock: 35,
+    rating: 4.2,
+    numReviews: 150
+  },
+  {
     name: "Milton Thermosteel Flask 1L",
     image: "/uploads/milton_flask.jpg",
     description: "1-liter vacuum insulated flask | Keeps beverages hot or cold for 24 hours | Rust-resistant",
@@ -406,18 +417,7 @@ const products = [
     rating: 4.7,
     numReviews: 200
   },
-  {
-    name: "Hawkins Futura Hard Anodised Kadhai 3L",
-    image: "/uploads/hawkins_kadhai.jpg",
-    description: "Hard anodized for durability | 3-liter capacity | Even heat distribution",
-    brand: "Hawkins",
-    category: "Home Kitchen Items",
-    price: 999,
-    countInStock: 35,
-    rating: 4.8,
-    numReviews: 150
-  }
-
+ 
   
 ];
 
