@@ -341,17 +341,6 @@ const products = [
     numReviews: 300
   },
   {
-    name: "Atomic Habits by James Clear",
-    image: "/uploads/atomic_habits.jpg",
-    description: "Self-help book | Focus on habit formation and improvement",
-    brand: "Penguin",
-    category: "Books",
-    price: 499,
-    countInStock: 35,
-    rating: 4.2,
-    numReviews: 100
-  },
-  {
     name: "Sapiens by Yuval Noah Harari",
     image: "/uploads/sapiens_book.jpg",
     description: "Exploration of human history | Engaging and insightful",
@@ -359,19 +348,8 @@ const products = [
     category: "Books",
     price: 599,
     countInStock: 40,
-    rating: 4.7,
+    rating: 4.2,
     numReviews: 400
-  },
-  {
-    name: "Becoming by Michelle Obama",
-    image: "/uploads/becoming_book.jpg",
-    description: "Memoir of former First Lady | Inspirational journey",
-    brand: "Crown",
-    category: "Books",
-    price: 450,
-    countInStock: 28,
-    rating: 4.8,
-    numReviews: 800
   },
   {
     name: "The Power of Now by Eckhart Tolle",
@@ -381,7 +359,7 @@ const products = [
     category: "Books",
     price: 399,
     countInStock: 45,
-    rating: 4.6,
+    rating: 4.1,
     numReviews: 750
   },
   {
