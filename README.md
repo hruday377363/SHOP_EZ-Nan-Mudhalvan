@@ -1,9 +1,14 @@
 # eCommerce Platform Project - MERN Stack
 
+
+Team : 
+1. A R HRUDAYABHIRAM       REGISTRATION NUMBER : 211521243019
+2. MUHILAN                 REGISTRATION NUMBER : 2115212430
+3. JAIGANESH               REGSITRATION NUMBER : 2115212430
+4 .HARIKRISHNAMOORTHY M    REGISTRATION NUMBER : 2115212430
+
 Welcome to the eCommerce Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured online shopping platform with various functionalities to enhance the user experience.
 
-**Live App Demo** : [https://mern-shop-abxs.onrender.com/](https://mern-shop-abxs.onrender.com/)</br>
-Note: Please be aware that Render's free tier will automatically shut down after 15 minutes of inactivity. Consequently, the first request after reactivation may experience a delay, but subsequent requests will be faster.
 
 ## Features
 
@@ -108,12 +113,11 @@ npm run data:destroy
 
 ## Sample User Logins
 
-- **Live Admin Dashboard Login:**: [https://mern-shop-abxs.onrender.com/admin/login](https://mern-shop-abxs.onrender.com/admin/login)
-
+- **Live Admin Dashboard Login:**: To Be hosted
   - Email: admin@admin.com
   - Password: admin123
 
-- **Live Customer Logins:**: [https://mern-shop-abxs.onrender.com/login](https://mern-shop-abxs.onrender.com/login)
+- **Live Customer Logins:**:  To be hosted
   - John Doe
     - Email: john@email.com
     - Password: john123
@@ -121,13 +125,6 @@ npm run data:destroy
     - Email: alice@email.com
     - Password: alice123
 
-Feel free to explore and customize this eCommerce platform for your specific needs. Happy coding🤩!
-
-# Contributing to the eCommerce Platform Project
-
-We welcome and appreciate contributions from the community to enhance and improve the eCommerce Platform Project. Whether you're a developer, designer, tester, or someone with valuable feedback, your input is valuable. Here's how you can contribute:
-
-## Getting Started
 
 1. Fork the repository to your GitHub account.
 
