@@ -1,11 +1,12 @@
 # eCommerce Platform Project - MERN Stack
 
 
-Team : 
-1. A R HRUDAYABHIRAM               REGISTRATION NUMBER : 211521243019
-2. MUHILAN                         REGISTRATION NUMBER : 2115212430
-3. JAIGANESH                       REGSITRATION NUMBER : 2115212430
-4. HARIKRISHNAMOORTHY M            REGISTRATION NUMBER : 2115212430
+## Team : 
+
+# 1. A R HRUDAYABHIRAM               REGISTRATION NUMBER : 211521243019
+# 2. MUHILAN                         REGISTRATION NUMBER : 2115212430
+# 3. JAIGANESH                       REGSITRATION NUMBER : 2115212430
+# 4. HARIKRISHNAMOORTHY M            REGISTRATION NUMBER : 2115212430
 
 Welcome to the eCommerce Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured online shopping platform with various functionalities to enhance the user experience.
 
@@ -185,10 +186,5 @@ npm run data:destroy
 
 5. Submit the pull request.
 
-## Code Review
-
-Your contribution will be reviewed by the project maintainers. Be prepared to address any feedback or suggestions to ensure the quality and compatibility of your changes.
-
 ## Thank You!
 
-Thank you for considering contributing to the eCommerce Platform Project. Your efforts help make this project better for everyone. If you have any questions or need assistance, feel free to reach out through the issue tracker or discussions. Happy coding🤩!
