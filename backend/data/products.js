@@ -1,18 +1,5 @@
 const products = [
   {
-    name: 'Vijan anna ',
-    image: '/uploads/anil.jpg',
-    description:
-      'Actor , politician , Annan yaaru THALAPATHY',
-    brand: 'THALAPTHY',
-    category: 'TVK',
-    price: 699999999999999,
-    countInStock: 1,
-    rating: 5.0,
-    numReviews: 118000000000
-  },
-  
-  {
     name: 'Acer Nitro V Gaming Laptop 13th Gen Intel Core i5-13420H with RTX 4050 Graphics 6GB VRAM, 144Hz Display (16GB DDR5/512GB SSD/Windows 11 Home/Wi-Fi 6),15.6"(39.6cms) FHD ANV15-51',
     image: '/uploads/51TiJ0A-KsL._SL1000_.jpg',
     description:
@@ -143,7 +130,317 @@ const products = [
     countInStock: 9,
     rating: 4.6,
     numReviews: 107
+  },
+  {
+    name: "Samsung Microwave Oven 23L",
+    image: "/uploads/samsung_microwave_23L.jpg",
+    description: "23L capacity with multiple cooking modes | Touch panel control | Ceramic enamel interior",
+    brand: "Samsung",
+    category: "Home Appliances",
+    price: 8499,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 95
+  },
+  {
+    name: "Philips Air Fryer HD9252/90",
+    image: "/uploads/philips_air_fryer.jpg",
+    description: "1400W power | 4.1L capacity | Digital Touch Panel | Auto shut-off | Rapid Air Technology",
+    brand: "Philips",
+    category: "Home Appliances",
+    price: 7999,
+    countInStock: 20,
+    rating: 4.5,
+    numReviews: 210
+  },
+  {
+    name: "Whirlpool Fridge",
+    image: "/uploads/whirlpool_fridge_machine.jpg",
+    description: "6.5kg capacity | Turbo cooler technologyy | Smart lint filter | AC VEBTdry",
+    brand: "Whirlpool",
+    category: "Home Appliances",
+    price: 10499,
+    countInStock: 5,
+    rating: 4.3,
+    numReviews: 78
+  },
+  {
+    name: "Prestige Mixer grinder",
+    image: "/uploads/lg_ac_1.5ton.jpg",
+    description: "1.5 Ton | Dual Inverter Compressor Blades | 4-star rating | Wi-Fi enabled",
+    brand: "LG",
+    category: "Home Appliances",
+    price: 42999,
+    countInStock: 8,
+    rating: 4.7,
+    numReviews: 134
+  },
+  {
+    name: "Bosch Front Load Washing Machine 7kg",
+    image: "/uploads/bosch_washing_machine.jpg",
+    description: "7kg capacity | EcoSilence Drive | AntiVibration Design | 1200 rpm spin speed",
+    brand: "Bosch",
+    category: "Home Appliances",
+    price: 29999,
+    countInStock: 10,
+    rating: 4.6,
+    numReviews: 98
+  },
+  {
+    name: "Panasonic heater",
+    image: "/uploads/panasonic_heater.jpg",
+    description: "25L capacity | Touch panel control | Convection and grill cooking modes",
+    brand: "Panasonic",
+    category: "Home Appliances",
+    price: 11999,
+    countInStock: 7,
+    rating: 4.4,
+    numReviews: 120
+  },
+  {
+    name: "Levi's Men's Slim Fit Jeans",
+    image: "/uploads/levis_slim_jeans.jpg",
+    description: "Comfort stretch denim | Slim fit | Zip fly with button closure | Classic five-pocket styling",
+    brand: "Levi's",
+    category: "Fashion",
+    price: 1999,
+    countInStock: 50,
+    rating: 4.3,
+    numReviews: 180
+  },
+  {
+    name: "Nike Men's Revolution 5 Running Shoe",
+    image: "/uploads/nike_revolution_shoe.jpg",
+    description: "Lightweight cushioning | Breathable upper | Durable rubber outsole",
+    brand: "Nike",
+    category: "Fashion",
+    price: 2999,
+    countInStock: 30,
+    rating: 4.7,
+    numReviews: 250
+  },
+  {
+    name: "Ray-Ban Classic Aviator Sunglasses",
+    image: "/uploads/rayban_aviator.jpg",
+    description: "Metal frame | Classic green lens | 100% UV protection",
+    brand: "Ray-Ban",
+    category: "Fashion",
+    price: 5499,
+    countInStock: 15,
+    rating: 4.8,
+    numReviews: 320
+  },
+  {
+    name: "Adidas Originals T-Shirt",
+    image: "/uploads/adidas_tshirt.jpg",
+    description: "Soft cotton | Regular fit | Adidas Originals logo",
+    brand: "Adidas",
+    category: "Fashion",
+    price: 999,
+    countInStock: 40,
+    rating: 4.4,
+    numReviews: 160
+  },
+  {
+    name: "Puma Women's Hoodie",
+    image: "/uploads/puma_hoodie.jpg",
+    description: "Comfortable fabric | Adjustable hood | Kangaroo pocket",
+    brand: "Puma",
+    category: "Fashion",
+    price: 1499,
+    countInStock: 20,
+    rating: 4.5,
+    numReviews: 110
+  },
+  {
+    name: "IKEA Ektorp 3-Seater Sofa",
+    image: "/uploads/ikea_sofa.jpg",
+    description: "Durable fabric | High-resilience foam cushions | Washable cover",
+    brand: "IKEA",
+    category: "Furniture",
+    price: 20999,
+    countInStock: 10,
+    rating: 4.6,
+    numReviews: 80
+  },
+  {
+    name: "Godrej Interio Dining Table Set",
+    image: "/uploads/godrej_dining_table.jpg",
+    description: "4-seater | Solid wood construction | Classic design",
+    brand: "Godrej",
+    category: "Furniture",
+    price: 15999,
+    countInStock: 15,
+    rating: 4.4,
+    numReviews: 65
+  },
+  {
+    name: "Urban Ladder Recliner Chair",
+    image: "/uploads/urban_ladder_recliner.jpg",
+    description: "Ergonomic design | Leatherette upholstery | Manual recline",
+    brand: "Urban Ladder",
+    category: "Furniture",
+    price: 11999,
+    countInStock: 12,
+    rating: 4.5,
+    numReviews: 55
+  },
+  {
+    name: "Nilkamal Wardrobe with Mirror",
+    image: "/uploads/nilkamal_wardrobe.jpg",
+    description: "3-door wardrobe | Ample storage space | Mirror on front",
+    brand: "Nilkamal",
+    category: "Furniture",
+    price: 13999,
+    countInStock: 20,
+    rating: 4.2,
+    numReviews: 70
+  },
+  {
+    name: "Wakefit King Size Bed Frame",
+    image: "/uploads/wakefit_bed.jpg",
+    description: "Solid wood | Sturdy construction | Modern design",
+    brand: "Wakefit",
+    category: "Furniture",
+    price: 18999,
+    countInStock: 8,
+    rating: 4.6,
+    numReviews: 45
+  },
+  {
+    name: "King Size Chair ",
+    image: "/uploads/wakefit_chair.jpg",
+    description: "Solid wood | Sturdy construction | Modern design",
+    brand: "Wakefit",
+    category: "Furniture",
+    price: 8999,
+    countInStock: 8,
+    rating: 4.6,
+    numReviews: 45
+  },
+  {
+    name: " AIRFLOW FAN",
+    image: "/uploads/fand.jpg",
+    description: "Cool breeze | 1000 RPM | Modern design",
+    brand: "usha",
+    category: "Furniture",
+    price: 18999,
+    countInStock: 8,
+    rating: 4.6,
+    numReviews: 45
+  },
+  {
+    name: "The Alchemist by Paulo Coelho",
+    image: "/uploads/alchemist_book.jpg",
+    description: "Inspirational novel | Themes of self-discovery and dreams",
+    brand: "HarperOne",
+    category: "Books",
+    price: 299,
+    countInStock: 50,
+    rating: 4.8,
+    numReviews: 300
+  },
+  {
+    name: "Atomic Habits by James Clear",
+    image: "/uploads/atomic_habits.jpg",
+    description: "Self-help book | Focus on habit formation and improvement",
+    brand: "Penguin",
+    category: "Books",
+    price: 499,
+    countInStock: 35,
+    rating: 4.2,
+    numReviews: 100
+  },
+  {
+    name: "Sapiens by Yuval Noah Harari",
+    image: "/uploads/sapiens_book.jpg",
+    description: "Exploration of human history | Engaging and insightful",
+    brand: "Vintage",
+    category: "Books",
+    price: 599,
+    countInStock: 40,
+    rating: 4.7,
+    numReviews: 400
+  },
+  {
+    name: "Becoming by Michelle Obama",
+    image: "/uploads/becoming_book.jpg",
+    description: "Memoir of former First Lady | Inspirational journey",
+    brand: "Crown",
+    category: "Books",
+    price: 450,
+    countInStock: 28,
+    rating: 4.8,
+    numReviews: 800
+  },
+  {
+    name: "The Power of Now by Eckhart Tolle",
+    image: "/uploads/power_of_now.jpg",
+    description: "Guide to mindfulness and inner peace | Spiritual teachings",
+    brand: " JK Rowling ",
+    category: "Books",
+    price: 399,
+    countInStock: 45,
+    rating: 4.6,
+    numReviews: 750
+  },
+  {
+    name: "Harry Potter and The Sorcerers Stone ",
+    image: "/uploads/power_of_now.jpg",
+    description: "Guide to mindfulness and inner peace | Spiritual teachings",
+    brand: "New World Library",
+    category: "Books",
+    price: 399,
+    countInStock: 45,
+    rating: 4.6,
+    numReviews: 750
+  },
+  {
+    name: "Prestige Non-Stick Cookware Set",
+    image: "/uploads/prestige_cookware_set.jpg",
+    description: "3-piece non-stick cookware set | Includes frying pan, kadhai, and tawa | Durable and scratch-resistant",
+    brand: "Prestige",
+    category: "Home Kitchen Items",
+    price: 1599,
+    countInStock: 25,
+    rating: 4.5,
+    numReviews: 120
+  },
+  {
+    name: "FIVE STAR Plastic box Set",
+    image: "/uploads/plasticbox_cookware_set.jpg",
+    description: "3-piece non-stick cookware set | Includes frying pan, kadhai, and tawa | Durable and scratch-resistant",
+    brand: "Prestige",
+    category: "Home Kitchen Items",
+    price: 1599,
+    countInStock: 25,
+    rating: 4.5,
+    numReviews: 120
+  },
+  {
+    name: "Milton Thermosteel Flask 1L",
+    image: "/uploads/milton_flask.jpg",
+    description: "1-liter vacuum insulated flask | Keeps beverages hot or cold for 24 hours | Rust-resistant",
+    brand: "Milton",
+    category: "Home Kitchen Items",
+    price: 699,
+    countInStock: 50,
+    rating: 4.7,
+    numReviews: 200
+  },
+  {
+    name: "Hawkins Futura Hard Anodised Kadhai 3L",
+    image: "/uploads/hawkins_kadhai.jpg",
+    description: "Hard anodized for durability | 3-liter capacity | Even heat distribution",
+    brand: "Hawkins",
+    category: "Home Kitchen Items",
+    price: 999,
+    countInStock: 35,
+    rating: 4.8,
+    numReviews: 150
   }
+
+  
 ];
 
 export default products;
